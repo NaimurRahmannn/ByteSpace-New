@@ -1,7 +1,5 @@
+import HomePage from './pages/HomePage.jsx'
+
 export default function App() {
-  return (
-    <h1 className="text-3xl font-bold text-blue-600 underline">
-      Hello Bytespace-new
-    </h1>
-  )
+  return <HomePage />
 }
