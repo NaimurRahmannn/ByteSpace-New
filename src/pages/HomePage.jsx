@@ -1,3 +1,10 @@
+import Header from '../components/layout/Header.jsx'
+
 export default function HomePage() {
-  return <main id="main-content" />
+  return (
+    <>
+      <Header />
+      <main id="main-content" />
+    </>
+  )
 }
