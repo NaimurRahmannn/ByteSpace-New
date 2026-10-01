@@ -20,6 +20,11 @@
   --text-display--letter-spacing: -0.01em;
   --text-display--font-weight: 600;
 
+  --text-display-xs: 2.25rem;
+  --text-display-xs--line-height: 2.75rem;
+  --text-display-xs--letter-spacing: -0.01em;
+  --text-display-xs--font-weight: 500;
+
   --text-heading-lg: 2.75rem;
   --text-heading-lg--line-height: 1.2;
   --text-heading-lg--letter-spacing: -0.01em;
