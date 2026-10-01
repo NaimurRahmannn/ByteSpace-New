@@ -50,10 +50,30 @@
   --text-body-sm--letter-spacing: 0;
   --text-body-sm--font-weight: 400;
 
-  --text-label: 0.75rem;
-  --text-label--line-height: 1.25rem;
-  --text-label--letter-spacing: 0;
-  --text-label--font-weight: 500;
+  --text-label-lg: 1.125rem;
+  --text-label-lg--line-height: 1.2;
+  --text-label-lg--letter-spacing: 0;
+  --text-label-lg--font-weight: 500;
+
+  --text-label-md: 1rem;
+  --text-label-md--line-height: 1.2;
+  --text-label-md--letter-spacing: 0;
+  --text-label-md--font-weight: 500;
+
+  --text-label-sm: 0.875rem;
+  --text-label-sm--line-height: 1.2;
+  --text-label-sm--letter-spacing: 0;
+  --text-label-sm--font-weight: 500;
+
+  --text-label-xs: 0.75rem;
+  --text-label-xs--line-height: 1.25rem;
+  --text-label-xs--letter-spacing: 0;
+  --text-label-xs--font-weight: 500;
+
+  --text-label: var(--text-label-xs);
+  --text-label--line-height: var(--text-label-xs--line-height);
+  --text-label--letter-spacing: var(--text-label-xs--letter-spacing);
+  --text-label--font-weight: var(--text-label-xs--font-weight);
 
   --container-content: 75rem;
 
