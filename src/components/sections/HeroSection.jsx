@@ -4,6 +4,8 @@ import ProgressCard from '../ui/ProgressCard.jsx'
 import SearchBar from '../ui/SearchBar.jsx'
 import StudentSocialProofCard from '../ui/StudentSocialProofCard.jsx'
 
+const whiteTint = 'brightness(1.75) saturate(0) contrast(0.96)'
+
 function HeroGrid() {
   return (
     <div
@@ -17,7 +19,6 @@ function HeroOrnaments() {
   const { ornaments } = heroAssets
   const limeTint =
     'saturate(0) sepia(1) saturate(7) hue-rotate(32deg) brightness(1.03) contrast(1.02)'
-  const whiteTint = 'brightness(1.75) saturate(0) contrast(0.96)'
 
   return (
     <div
@@ -36,13 +37,6 @@ function HeroOrnaments() {
         className="absolute left-[183px] top-[357px] h-[175px] w-[175px] object-contain"
         data-figma-node="46:95"
         src={ornaments.wave}
-        style={{ filter: whiteTint }}
-      />
-      <img
-        alt=""
-        className="absolute left-[18px] top-[562px] h-[342px] w-[342px] object-contain"
-        data-figma-node="46:105"
-        src={ornaments.coneLeft}
         style={{ filter: whiteTint }}
       />
       <img
@@ -77,6 +71,14 @@ function HeroArtwork() {
         aria-hidden="true"
         className="absolute left-1/2 top-[120px] h-[760px] w-[760px] -translate-x-1/2 rounded-full bg-brand-lime-strong md:top-[150px] md:h-[920px] md:w-[920px] xl:left-[145px] xl:top-[462px] xl:h-[1149px] xl:w-[1149px] xl:translate-x-0"
         data-figma-node="1:1866"
+      />
+
+      <img
+        alt=""
+        className="absolute left-[18px] top-[562px] hidden h-[342px] w-[342px] object-contain xl:block z-10"
+        data-figma-node="46:105"
+        src={heroAssets.ornaments.coneLeft}
+        style={{ filter: whiteTint }}
       />
 
       <img

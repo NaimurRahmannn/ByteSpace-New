@@ -113,3 +113,16 @@ test('renders Figma hero visual invariants without the old ring implementation',
   assert.match(markup, /saturate\(7\) hue-rotate\(32deg\)/)
   assert.doesNotMatch(markup, /saturate\(12\) hue-rotate\(18deg\)/)
 })
+
+test('layers hero-asset-15 above the lime artwork disk', async () => {
+  const markup = await renderHeroSection()
+  const diskIndex = markup.indexOf('data-figma-node="1:1866"')
+  const ornamentIndex = markup.indexOf('data-figma-node="46:105"')
+
+  assert.ok(diskIndex >= 0)
+  assert.ok(ornamentIndex > diskIndex)
+  assert.match(
+    markup,
+    /class="[^"]*hidden[^"]*xl:block[^"]*z-10"[^>]*data-figma-node="46:105"/,
+  )
+})
