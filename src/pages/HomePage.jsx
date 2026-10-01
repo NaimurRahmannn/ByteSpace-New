@@ -1,3 +1,4 @@
+import Footer from '../components/layout/Footer.jsx'
 import Header from '../components/layout/Header.jsx'
 import CourseDiscoverySection from '../components/sections/CourseDiscoverySection.jsx'
 import CreatorCTASection from '../components/sections/CreatorCTASection.jsx'
@@ -20,6 +21,7 @@ export default function HomePage() {
         <CreatorCTASection />
         <TestimonialsSection />
       </main>
+      <Footer />
     </>
   )
 }
