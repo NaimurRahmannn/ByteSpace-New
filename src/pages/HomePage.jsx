@@ -5,6 +5,7 @@ import GrowthCreatorSection from '../components/sections/GrowthCreatorSection.js
 import HeroSection from '../components/sections/HeroSection.jsx'
 import LearningPathsSection from '../components/sections/LearningPathsSection.jsx'
 import PartnerSection from '../components/sections/PartnerSection.jsx'
+import TestimonialsSection from '../components/sections/TestimonialsSection.jsx'
 
 export default function HomePage() {
   return (
@@ -17,6 +18,7 @@ export default function HomePage() {
         <LearningPathsSection />
         <GrowthCreatorSection />
         <CreatorCTASection />
+        <TestimonialsSection />
       </main>
     </>
   )
