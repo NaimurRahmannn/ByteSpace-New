@@ -1,4 +1,5 @@
 import { useId, useState } from 'react'
+import { Link, useInRouterContext } from 'react-router-dom'
 import bytespaceLogo from '../../assets/figma/vectors/bytespace-logo.svg'
 
 const navigationItems = [
@@ -49,6 +50,22 @@ function NavigationLinks({ onNavigate, mobile = false }) {
   )
 }
 
+function RouterAwareLink({ to, children, ...props }) {
+  const inRouter = useInRouterContext()
+  if (inRouter) {
+    return (
+      <Link to={to} {...props}>
+        {children}
+      </Link>
+    )
+  }
+  return (
+    <a href={to} {...props}>
+      {children}
+    </a>
+  )
+}
+
 function AccountLinks({ onNavigate, mobile = false }) {
   return (
     <div
@@ -58,20 +75,20 @@ function AccountLinks({ onNavigate, mobile = false }) {
           : 'hidden items-center justify-end gap-6 md:mt-[48px] md:flex'
       }
     >
-      <a
+      <RouterAwareLink
         className={`font-body text-body-md text-surface-light transition-colors hover:text-brand-lime ${blueSurfaceFocusClasses}`}
-        href="#signin"
         onClick={onNavigate}
+        to="/login"
       >
         Sign In
-      </a>
-      <a
+      </RouterAwareLink>
+      <RouterAwareLink
         className={`font-body text-body-md text-surface-light transition-colors hover:text-brand-lime ${blueSurfaceFocusClasses}`}
-        href="#join"
         onClick={onNavigate}
+        to="/register"
       >
         Join Us
-      </a>
+      </RouterAwareLink>
       {!mobile && (
         <a
           className={`flex h-6 w-6 items-center justify-center text-surface-light transition-colors hover:text-brand-lime ${blueSurfaceFocusClasses}`}
