@@ -6,6 +6,23 @@ A modern, high-fidelity responsive landing page for **ByteSpace**, an all-in-one
 
 ---
 
+## 📑 Table of Contents
+
+| # | Section | Description |
+| :-: | :--- | :--- |
+| 1 | [📸 Overview](#overview) | Platform purpose, core vision, and walkthrough of all 9 landing page sections |
+| 2 | [🛠️ Tech Stack & Architecture](#tech-stack--architecture) | React 19, Vite 8, Tailwind CSS v4, fonts, and test tooling |
+| 3 | [🎨 Design System Tokens](#design-system-tokens) | Color palette, typography scale, container widths, and geometry |
+| 4 | [📂 Project Directory Structure](#project-directory-structure) | Full codebase tree (`src/` components, layout, sections, data, assets) |
+| 5 | [🚀 Getting Started](#getting-started) | Prerequisites, installation, dev server, build, lint, and test scripts |
+| 6 | [📱 Responsive Design Strategy](#responsive-design-strategy) | 1440px desktop baseline, tablet adaptation, and 375px mobile fluid flow |
+| 7 | [♿ Accessibility & Performance](#accessibility--performance) | Semantic landmarks, keyboard navigation, screen readers, and zero-CLS |
+| 8 | [🚢 Deployment](#deployment) | Live Vercel production hosting and continuous deployment |
+| 9 | [📄 License](#license) | Usage rights and educational project attribution |
+
+---
+
+<a id="overview"></a>
 ## 📸 Overview
 
 ByteSpace is engineered to provide an engaging educational discovery experience, balancing learning paths, course offerings, and creator enablement through an energetic visual identity with electric lime accents, deep persian blue surfaces, and typographic hierarchy.
@@ -59,6 +76,7 @@ ByteSpace is engineered to provide an engaging educational discovery experience,
 
 ---
 
+<a id="tech-stack--architecture"></a>
 ## 🛠️ Tech Stack & Architecture
 
 - **Core Framework:** [React 19](https://react.dev/)
@@ -73,6 +91,7 @@ ByteSpace is engineered to provide an engaging educational discovery experience,
 
 ---
 
+<a id="design-system-tokens"></a>
 ## 🎨 Design System Tokens
 
 The project implements a centralized design token system defined in CSS:
@@ -94,6 +113,7 @@ The project implements a centralized design token system defined in CSS:
 
 ---
 
+<a id="project-directory-structure"></a>
 ## 📂 Project Directory Structure
 
 ```text
@@ -149,6 +169,7 @@ bytespace-new/
 
 ---
 
+<a id="getting-started"></a>
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -207,6 +228,7 @@ npm run preview
 
 ---
 
+<a id="responsive-design-strategy"></a>
 ## 📱 Responsive Design Strategy
 
 The application is thoroughly verified across standard screen sizes:
@@ -217,6 +239,7 @@ The application is thoroughly verified across standard screen sizes:
 
 ---
 
+<a id="accessibility--performance"></a>
 ## ♿ Accessibility & Performance
 
 - **Semantic Landmarks:** Structured with `<header>`, `<main id="main-content">`, `<section>`, and `<footer>`.
@@ -226,6 +249,7 @@ The application is thoroughly verified across standard screen sizes:
 
 ---
 
+<a id="deployment"></a>
 ## 🚢 Deployment
 
 This project is deployed on **Vercel** with automatic continuous deployment on push to `main`.
@@ -234,6 +258,7 @@ Live URL: **[https://byte-space-new-roan.vercel.app](https://byte-space-new-roan
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is created for educational and portfolio demonstration purposes. All rights reserved by ByteSpace.
