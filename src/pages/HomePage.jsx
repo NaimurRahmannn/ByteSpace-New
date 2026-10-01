@@ -1,5 +1,6 @@
 import Header from '../components/layout/Header.jsx'
 import CourseDiscoverySection from '../components/sections/CourseDiscoverySection.jsx'
+import CreatorCTASection from '../components/sections/CreatorCTASection.jsx'
 import GrowthCreatorSection from '../components/sections/GrowthCreatorSection.jsx'
 import HeroSection from '../components/sections/HeroSection.jsx'
 import LearningPathsSection from '../components/sections/LearningPathsSection.jsx'
@@ -15,6 +16,7 @@ export default function HomePage() {
         <CourseDiscoverySection />
         <LearningPathsSection />
         <GrowthCreatorSection />
+        <CreatorCTASection />
       </main>
     </>
   )
