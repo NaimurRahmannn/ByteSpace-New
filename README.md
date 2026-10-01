@@ -1,6 +1,6 @@
 # ByteSpace — Modern EdTech Learning Platform
 
-A modern, high-fidelity responsive landing page for **ByteSpace**, an all-in-one educational platform connecting passionate learners with expert course creators. Built with precision according to Figma design specifications, featuring responsive layouts, semantic structure, micro-interactions, and design tokens.
+A modern, high-fidelity responsive web application for **ByteSpace**, featuring a comprehensive educational landing page alongside dedicated **Login** and **Registration** authentication experiences. Built with precision according to Figma design specifications, featuring responsive layouts, client-side routing, semantic structure, micro-interactions, and a cohesive design system.
 
 🔗 **Live Deployment:** [https://byte-space-new-roan.vercel.app](https://byte-space-new-roan.vercel.app)
 
@@ -10,20 +10,21 @@ A modern, high-fidelity responsive landing page for **ByteSpace**, an all-in-one
 
 | # | Section | Description |
 | :-: | :--- | :--- |
-| 1 | [📸 Overview](#overview) | Platform purpose, core vision, and walkthrough of all 9 landing page sections |
-| 2 | [🛠️ Tech Stack & Architecture](#tech-stack--architecture) | React 19, Vite 8, Tailwind CSS v4, fonts, and test tooling |
-| 3 | [🎨 Design System Tokens](#design-system-tokens) | Color palette, typography scale, container widths, and geometry |
-| 4 | [📂 Project Directory Structure](#project-directory-structure) | Full codebase tree (`src/` components, layout, sections, data, assets) |
-| 5 | [🚀 Getting Started](#getting-started) | Prerequisites, installation, dev server, build, lint, and test scripts |
-| 6 | [📱 Responsive Design Strategy](#responsive-design-strategy) | 1440px desktop baseline, tablet adaptation, and 375px mobile fluid flow |
-| 7 | [♿ Accessibility & Performance](#accessibility--performance) | Semantic landmarks, keyboard navigation, screen readers, and zero-CLS |
-| 8 | [🚢 Deployment](#deployment) | Live Vercel production hosting and continuous deployment |
-| 9 | [📄 License](#license) | Usage rights and educational project attribution |
+| 1 | [📸 Overview & Landing Page](#overview) | Platform purpose, core vision, and walkthrough of all 9 landing page sections |
+| 2 | [🔐 Authentication Pages (Login & Registration)](#authentication-pages) | Dedicated Login and Registration experiences with Figma-faithful showcase layout |
+| 3 | [🛠️ Tech Stack & Architecture](#tech-stack--architecture) | React 19, React Router v7, Vite 8, Tailwind CSS v4, fonts, and test tooling |
+| 4 | [🎨 Design System Tokens](#design-system-tokens) | Color palette, typography scale, container widths, and geometry |
+| 5 | [📂 Project Directory Structure](#project-directory-structure) | Full codebase tree (`src/` components, auth, layout, sections, data, assets) |
+| 6 | [🚀 Getting Started](#getting-started) | Prerequisites, installation, dev server, build, lint, and test scripts |
+| 7 | [📱 Responsive Design Strategy](#responsive-design-strategy) | 1440px desktop baseline, tablet adaptation, and 375px mobile fluid flow |
+| 8 | [♿ Accessibility & Performance](#accessibility--performance) | Semantic landmarks, keyboard navigation, screen readers, and zero-CLS |
+| 9 | [🚢 Deployment](#deployment) | Live Vercel production hosting with SPA rewrites |
+| 10 | [📄 License](#license) | Usage rights and educational project attribution |
 
 ---
 
 <a id="overview"></a>
-## 📸 Overview
+## 📸 Overview & Landing Page
 
 ByteSpace is engineered to provide an engaging educational discovery experience, balancing learning paths, course offerings, and creator enablement through an energetic visual identity with electric lime accents, deep persian blue surfaces, and typographic hierarchy.
 
@@ -32,7 +33,7 @@ ByteSpace is engineered to provide an engaging educational discovery experience,
 1. **Header & Navigation**
    - Brand mark and typography with custom SVG logo.
    - Smooth anchor navigation (`Home`, `Courses`, `Creators`).
-   - Quick account action triggers (`Sign In`, `Join Us`, Cart icon).
+   - Quick account action triggers (`Sign In` ➔ `/login`, `Join Us` ➔ `/register`, Cart icon).
    - Fully accessible responsive mobile hamburger drawer.
 
 2. **Hero Section**
@@ -76,10 +77,42 @@ ByteSpace is engineered to provide an engaging educational discovery experience,
 
 ---
 
+<a id="authentication-pages"></a>
+## 🔐 Authentication Pages (Login & Registration)
+
+ByteSpace features dedicated, production-ready authentication pages implemented directly from the official Figma designs (Login: `49:195`, Registration: `47:351`) and verified against reference screenshots. Both pages share a unified, immersive split-layout architecture with an energetic visual showcase and precision form panels.
+
+### 1. Login Page (`/login` — Figma `49:195`)
+- **Header & Branding:** Eyebrow tag *"Sign In"* and primary title *"Welcome Back"*.
+- **Input Controls:** Standard 52px height inputs with 12px rounded radius and `#E5E6E8` borders for **Email** and **Password** with accessible labels and custom focus rings.
+- **Primary CTA:** High-contrast electric lime button (*"Sign In"*) with hover micro-animations.
+- **Social Authentication Section:** A clean `"or"` divider followed by dedicated **Facebook** and **Google** social login buttons with exact brand SVGs.
+- **Page Switching:** Seamless navigation link: *"Don't have an account? Sign Up"* redirecting directly to `/register`.
+- **Top Navigation:** Clicking the ByteSpace brand mark in the top-left returns users directly to the homepage (`/`).
+
+### 2. Registration Page (`/register` — Figma `47:351`)
+- **Header & Branding:** Eyebrow tag *"Create an Account"* and primary title *"Welcome to ByteSpace"*.
+- **Input Controls:** Three dedicated 52px fields: **Full Name**, **Email**, and **Password**.
+- **Primary CTA:** Full-width electric lime *"Continue"* button.
+- **Figma Design Invariant:** Per Figma specification `47:351`, third-party social login buttons are intentionally omitted on the registration screen to maintain a focused, distraction-free signup flow.
+- **Page Switching:** Navigation footer: *"Already have an account? Sign In"* leading directly to `/login`.
+
+### 3. Shared Visual Showcase Layout (`AuthShowcase` & `AuthLayout`)
+- **Architectural Surface:** Deep `#003BE2` background overlaid with a subtle 120px blueprint grid pattern and brand icon watermark.
+- **Dual Overlapping Course Discovery Showcase:**
+  - **Upper (Foreground) Card:** *"the Power of Big Data"* featured with thumbnail asset `course-discovery-asset-06.jpg`, top overlay chips (*17 Lessons*, *2 hours 16 mins*, *59 Comments*), 4.5-star rating, beginner level badge, and `$25/lifetime` pricing.
+  - **Under (Background) Card:** *"Build Digital Asset"* featured with thumbnail asset `course-discovery-asset-05.jpg`, positioned at an offset down-left with single chip *17 Lessons*.
+- **Floating 3D Decorative Ornaments:** Curated 3D geometries (lime torus, lime pyramid, white wave coil) rendered with calibrated CSS filter color transforms matching the Figma lighting.
+- **Community Social Proof:** An overlaid electric lime *"Happy Students"* card displaying a `2K+` badge and stacked circular student avatars.
+- **Fluid Responsiveness:** A 2-column desktop layout (showcase + 579×784px auth card) that gracefully collapses into a stacked single-column view on tablet and mobile viewports.
+
+---
+
 <a id="tech-stack--architecture"></a>
 ## 🛠️ Tech Stack & Architecture
 
 - **Core Framework:** [React 19](https://react.dev/)
+- **Client-Side Routing:** [React Router v7](https://reactrouter.com/) (`react-router-dom`) with client-side SPA routing (`/`, `/login`, `/register`)
 - **Build Tool:** [Vite 8](https://vitejs.dev/)
 - **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) using `@tailwindcss/vite`
 - **Typography:**
@@ -124,6 +157,10 @@ bytespace-new/
 │   │   └── figma/          # Localized high-fidelity Figma raster & vector assets
 │   │       └── vectors/    # SVG logos, partner brands, and decorative curves
 │   ├── components/
+│   │   ├── auth/           # Authentication showcase & course card components
+│   │   │   ├── AuthCourseCard.jsx
+│   │   │   ├── AuthLayout.jsx
+│   │   │   └── AuthShowcase.jsx
 │   │   ├── layout/         # Header and Footer layout components
 │   │   │   ├── Header.jsx
 │   │   │   ├── Header.test.mjs
@@ -139,13 +176,14 @@ bytespace-new/
 │   │   │   └── TestimonialsSection.jsx
 │   │   └── ui/             # Reusable UI atoms and compound components
 │   │       ├── Button.jsx
-│   │       ├── SearchBar.jsx
 │   │       ├── CategoryPill.jsx
 │   │       ├── CourseCard.jsx
+│   │       ├── FormField.jsx
 │   │       ├── LearningPathCard.jsx
+│   │       ├── NewsletterForm.jsx
+│   │       ├── SearchBar.jsx
 │   │       ├── StudentSocialProofCard.jsx
-│   │       ├── TestimonialCard.jsx
-│   │       └── NewsletterForm.jsx
+│   │       └── TestimonialCard.jsx
 │   ├── data/               # Structured data sources
 │   │   ├── categories.js
 │   │   ├── courses.js
@@ -154,8 +192,11 @@ bytespace-new/
 │   │   ├── growthCreator.js
 │   │   ├── learningPaths.js
 │   │   └── testimonials.js
-│   ├── pages/              # Page views
-│   │   └── HomePage.jsx
+│   ├── pages/              # Page views & route integration tests
+│   │   ├── AuthPages.test.mjs
+│   │   ├── HomePage.jsx
+│   │   ├── LoginPage.jsx
+│   │   └── RegisterPage.jsx
 │   ├── styles/             # Global and theme styling
 │   │   └── theme.css
 │   ├── App.jsx
@@ -164,6 +205,7 @@ bytespace-new/
 ├── docs/                   # Figma audit, specifications, and design system docs
 ├── index.html
 ├── package.json
+├── vercel.json             # Vercel SPA rewrite configuration for direct route loads
 └── vite.config.js
 ```
 
@@ -254,7 +296,8 @@ The application is thoroughly verified across standard screen sizes:
 
 This project is deployed on **Vercel** with automatic continuous deployment on push to `main`.
 
-Live URL: **[https://byte-space-new-roan.vercel.app](https://byte-space-new-roan.vercel.app)**
+- **Live URL:** **[https://byte-space-new-roan.vercel.app](https://byte-space-new-roan.vercel.app)**
+- **Single Page Application (SPA) Routing:** Configured with `vercel.json` rewrite rules (`{ "source": "/(.*)", "destination": "/index.html" }`), ensuring direct browser navigation, deep linking, and page reloads on `/login` and `/register` route seamlessly without 404 errors.
 
 ---
 
