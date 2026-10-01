@@ -49,7 +49,8 @@ export const heroStats = {
   },
   students: {
     title: 'Happy Students',
-    rating: '4.5 (240)',
+    ratingValue: '4.5',
+    ratingCount: '(240)',
     totalLabel: '2K+',
   },
   courseSummary: {

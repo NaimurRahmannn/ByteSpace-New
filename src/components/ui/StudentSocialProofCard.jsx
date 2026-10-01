@@ -1,15 +1,18 @@
 export default function StudentSocialProofCard({
   avatars,
-  rating,
+  ratingCount,
+  ratingValue,
   title,
   totalLabel,
 }) {
   return (
-    <article className="w-[258px] rounded-2xl bg-white p-4 text-text-primary backdrop-blur-[20px]">
+    <article className="w-[258px] rounded-2xl bg-white p-4 text-text-primary backdrop-blur-[10px]">
       <div>
         <p className="font-body text-label-md">{title}</p>
-        <p className="font-body text-xs leading-[1.6] text-text-secondary">
-          {rating} <span className="text-brand-lime-strong">★</span>
+        <p className="font-body text-xs leading-[1.6]">
+          <span className="text-text-primary">{ratingValue}</span>{' '}
+          <span className="text-text-secondary">{ratingCount}</span>{' '}
+          <span className="text-brand-lime-strong">{'\u2605'}</span>
         </p>
       </div>
 

@@ -95,16 +95,21 @@ test('uses localized visible Figma Hero assets and omits hidden asset group', as
   }
 })
 
-test('renders Figma hero visual measurements as stable desktop classes', async () => {
+test('renders Figma hero visual invariants without the old ring implementation', async () => {
   const markup = await renderHeroSection()
 
-  assert.match(markup, /md:min-h-\[904px\]/)
+  assert.match(markup, /xl:min-h-\[904px\]/)
   assert.match(markup, /md:pt-\[49px\]/)
   assert.match(markup, /\[background-size:120px_120px\]/)
   assert.match(markup, /opacity-\[0\.12\]/)
-  assert.match(markup, /md:left-\[431px\]/)
-  assert.match(markup, /md:top-\[392px\]/)
-  assert.match(markup, /md:w-\[578px\]/)
-  assert.match(markup, /md:left-\[842px\]/)
-  assert.match(markup, /md:top-\[531px\]/)
+  assert.match(markup, /data-figma-node="1:1866"/)
+  assert.match(markup, /bg-brand-lime-strong/)
+  assert.doesNotMatch(markup, /border-\[320px\]/)
+  assert.match(markup, /xl:left-\[431px\]/)
+  assert.match(markup, /xl:top-\[392px\]/)
+  assert.match(markup, /xl:w-\[578px\]/)
+  assert.match(markup, /xl:left-\[842px\]/)
+  assert.match(markup, /xl:top-\[531px\]/)
+  assert.match(markup, /saturate\(7\) hue-rotate\(32deg\)/)
+  assert.doesNotMatch(markup, /saturate\(12\) hue-rotate\(18deg\)/)
 })
