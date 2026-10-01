@@ -1,0 +1,691 @@
+{
+  "source": {
+    "fileKey": "ppOuZFhY7b2bivJ2IDxjM9",
+    "homeNodeId": "1:1067",
+    "imageMap": "docs/figma-export/image-fills.json"
+  },
+  "generatedAtUtc": "2026-10-01T06:10:23.343Z",
+  "assets": [
+    {
+      "imageRef": "29a52a24e51266edcd7d57d73392ee5fc4833220",
+      "localPath": "src/assets/figma/hero-asset-01.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1796",
+        "34:971"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Image [1:1796]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Image [34:971]"
+      ],
+      "bytes": 230886,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "9ef8cb329b949267cc8214b6727067c4a13af4b4",
+      "localPath": "src/assets/figma/hero-asset-02.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1828",
+        "34:1045"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1828]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1045]"
+      ],
+      "bytes": 78910,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "b44979e1c98ecb3ec92ac86805fe55581fbeaa60",
+      "localPath": "src/assets/figma/hero-asset-03.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1829",
+        "13:266",
+        "33:536",
+        "33:569",
+        "33:602",
+        "33:633",
+        "33:664",
+        "34:1073",
+        "34:1046"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1829]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [13:249] > Auto Layout Vertical [13:258] > Auto Layout Horizontal [13:262] > Auto Layout Horizontal [13:265] > Ellipse [13:266]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:518] > Auto Layout Vertical [33:527] > Auto Layout Horizontal [33:531] > Auto Layout Horizontal [33:535] > Ellipse [33:536]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:551] > Auto Layout Vertical [33:560] > Auto Layout Horizontal [33:564] > Auto Layout Horizontal [33:568] > Ellipse [33:569]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:584] > Auto Layout Vertical [33:593] > Auto Layout Horizontal [33:597] > Auto Layout Horizontal [33:601] > Ellipse [33:602]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:615] > Auto Layout Vertical [33:624] > Auto Layout Horizontal [33:628] > Auto Layout Horizontal [33:632] > Ellipse [33:633]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:646] > Auto Layout Vertical [33:655] > Auto Layout Horizontal [33:659] > Auto Layout Horizontal [33:663] > Ellipse [33:664]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Course_Card_1 [34:1055] > Auto Layout Vertical [34:1064] > Auto Layout Horizontal [34:1068] > Auto Layout Horizontal [34:1072] > Ellipse [34:1073]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1046]"
+      ],
+      "bytes": 56467,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "83fb3e04056cc892636460bee5791aa3f243854c",
+      "localPath": "src/assets/figma/hero-asset-04.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1830",
+        "34:1047"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1830]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1047]"
+      ],
+      "bytes": 98586,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "f3cf29a8fed39589ceb38423e65b26b8d6c93123",
+      "localPath": "src/assets/figma/hero-asset-05.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1831",
+        "34:1048"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1831]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1048]"
+      ],
+      "bytes": 71099,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "5824acacb3b76175bc84084ec18597109498f96d",
+      "localPath": "src/assets/figma/hero-asset-06.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1832",
+        "34:1049"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1832]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1049]"
+      ],
+      "bytes": 93493,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "7fdccc783264eedc4fb989984eecbc4058a219f2",
+      "localPath": "src/assets/figma/hero-asset-07.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1833",
+        "34:1050"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1833]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1050]"
+      ],
+      "bytes": 70460,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "1e078348a54489bfd231d82fe1944770883c8d80",
+      "localPath": "src/assets/figma/hero-asset-08.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:1834",
+        "34:1051"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Auto Layout Vertical [1:1821] > Auto Layout Horizontal [1:1827] > Ellipse [1:1834]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Auto Layout Vertical [34:1038] > Auto Layout Horizontal [34:1044] > Ellipse [34:1051]"
+      ],
+      "bytes": 79848,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "d5e9c4dc379dbf3d1f6679a4423483f6766a7931",
+      "localPath": "src/assets/figma/hero-asset-09.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:670",
+        "4:35"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Frame [1:669] > Image [1:670]",
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Frame [4:34] > Image [4:35]"
+      ],
+      "bytes": 2054046,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "24321b8894c48b04befaa9e71f204daacc40bbc4",
+      "localPath": "src/assets/figma/hero-asset-10.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:672",
+        "4:33"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Image [1:672]",
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Image [4:33]"
+      ],
+      "bytes": 1983056,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "6be36b89bfec399afb445a39d9bf4cb181332d48",
+      "localPath": "src/assets/figma/hero-asset-11.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "4:30"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Frame [4:29] > Image [4:30]"
+      ],
+      "bytes": 2403722,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "f1057d714a93edf29b02a9dbdb4fc552fd7ab847",
+      "localPath": "src/assets/figma/hero-asset-12.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "1:674"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > Group 1 [12:169] > Image [1:674]"
+      ],
+      "bytes": 3089391,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "cda676feaf7fba8b0f81b47c5ea2707d7acb5217",
+      "localPath": "src/assets/figma/hero-asset-13.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "46:86",
+        "46:88",
+        "34:982",
+        "34:984",
+        "34:1222",
+        "34:1224"
+      ],
+      "nodeNames": [
+        "Image",
+        "Mask"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:85] > Image [46:86]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:85] > Mask Group [46:87] > Mask [46:88]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Frame [34:981] > Image [34:982]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Frame [34:981] > Mask Group [34:983] > Mask [34:984]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1221] > Image [34:1222]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1221] > Mask Group [34:1223] > Mask [34:1224]"
+      ],
+      "bytes": 1196318,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "e3b55902d605bfc37a0809e6dc6dfe61b6701897",
+      "localPath": "src/assets/figma/hero-asset-14.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "46:91",
+        "46:93",
+        "46:96",
+        "46:98",
+        "34:1007",
+        "34:1009",
+        "34:1207",
+        "34:1209",
+        "34:1237",
+        "34:1239"
+      ],
+      "nodeNames": [
+        "Image",
+        "Mask"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:90] > Image [46:91]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:90] > Mask Group [46:92] > Mask [46:93]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:95] > Image [46:96]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Frame [46:95] > Mask Group [46:97] > Mask [46:98]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Frame [34:1006] > Image [34:1007]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Frame [34:1006] > Mask Group [34:1008] > Mask [34:1009]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1206] > Image [34:1207]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1206] > Mask Group [34:1208] > Mask [34:1209]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1236] > Image [34:1237]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Frame [34:1236] > Mask Group [34:1238] > Mask [34:1239]"
+      ],
+      "bytes": 1328245,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "8670b841eac7883ecb790f84eb349c6c01db588b",
+      "localPath": "src/assets/figma/hero-asset-15.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "46:106",
+        "46:108",
+        "46:68",
+        "46:70"
+      ],
+      "nodeNames": [
+        "Cone_01 2",
+        "Cone_01 1"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:105] > Cone_01 2 [46:106]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:105] > Mask Group [46:107] > Cone_01 1 [46:108]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:67] > Cone_01 2 [46:68]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:67] > Mask Group [46:69] > Cone_01 1 [46:70]"
+      ],
+      "bytes": 1341108,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "92fc70a39c36138c0e55699b18b3e88bd1f86a59",
+      "localPath": "src/assets/figma/hero-asset-16.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "46:111",
+        "46:113",
+        "46:74",
+        "46:76"
+      ],
+      "nodeNames": [
+        "Cone_01 2",
+        "Cone_01 1"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:110] > Cone_01 2 [46:111]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:110] > Mask Group [46:112] > Cone_01 1 [46:113]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:73] > Cone_01 2 [46:74]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:73] > Mask Group [46:75] > Cone_01 1 [46:76]"
+      ],
+      "bytes": 1930456,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "f9c0e0fd05db48405aa72287b20d04b9a01feb51",
+      "localPath": "src/assets/figma/hero-asset-17.png",
+      "section": "hero",
+      "rootId": "1:1695",
+      "rootName": "Hero_Frame",
+      "nodeIds": [
+        "46:81",
+        "46:83",
+        "46:62",
+        "46:64"
+      ],
+      "nodeNames": [
+        "Cone_01 2",
+        "Cone_01 1"
+      ],
+      "paths": [
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:80] > Cone_01 2 [46:81]",
+        "Home [1:1067] > Hero_Frame [1:1695] > 3d ornament [46:79] > Cone [46:80] > Mask Group [46:82] > Cone_01 1 [46:83]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:61] > Cone_01 2 [46:62]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:61] > Mask Group [46:63] > Cone_01 1 [46:64]"
+      ],
+      "bytes": 1005658,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "93ad9f9e6bdb3c7f3c478820624ee19ad7320072",
+      "localPath": "src/assets/figma/course-discovery-asset-01.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "13:250",
+        "34:1056"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [13:249] > Frame [13:250]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Course_Card_1 [34:1055] > Frame [34:1056]"
+      ],
+      "bytes": 100929,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "3fe559181733e0fb69226caee836e40092facb44",
+      "localPath": "src/assets/figma/course-discovery-asset-02.png",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "13:267",
+        "33:537",
+        "33:570",
+        "33:603",
+        "33:634",
+        "33:665",
+        "34:1074"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [13:249] > Auto Layout Vertical [13:258] > Auto Layout Horizontal [13:262] > Auto Layout Horizontal [13:265] > Ellipse [13:267]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:518] > Auto Layout Vertical [33:527] > Auto Layout Horizontal [33:531] > Auto Layout Horizontal [33:535] > Ellipse [33:537]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:551] > Auto Layout Vertical [33:560] > Auto Layout Horizontal [33:564] > Auto Layout Horizontal [33:568] > Ellipse [33:570]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:584] > Auto Layout Vertical [33:593] > Auto Layout Horizontal [33:597] > Auto Layout Horizontal [33:601] > Ellipse [33:603]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:615] > Auto Layout Vertical [33:624] > Auto Layout Horizontal [33:628] > Auto Layout Horizontal [33:632] > Ellipse [33:634]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:646] > Auto Layout Vertical [33:655] > Auto Layout Horizontal [33:659] > Auto Layout Horizontal [33:663] > Ellipse [33:665]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Course_Card_1 [34:1055] > Auto Layout Vertical [34:1064] > Auto Layout Horizontal [34:1068] > Auto Layout Horizontal [34:1072] > Ellipse [34:1074]"
+      ],
+      "bytes": 75020,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "0577f0e9b7fca2f32639871454da0de95f951709",
+      "localPath": "src/assets/figma/course-discovery-asset-03.png",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "13:268",
+        "33:538",
+        "33:571",
+        "33:604",
+        "33:635",
+        "33:666",
+        "34:1075",
+        "34:1184"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [13:249] > Auto Layout Vertical [13:258] > Auto Layout Horizontal [13:262] > Auto Layout Horizontal [13:265] > Ellipse [13:268]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:518] > Auto Layout Vertical [33:527] > Auto Layout Horizontal [33:531] > Auto Layout Horizontal [33:535] > Ellipse [33:538]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:551] > Auto Layout Vertical [33:560] > Auto Layout Horizontal [33:564] > Auto Layout Horizontal [33:568] > Ellipse [33:571]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:584] > Auto Layout Vertical [33:593] > Auto Layout Horizontal [33:597] > Auto Layout Horizontal [33:601] > Ellipse [33:604]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:615] > Auto Layout Vertical [33:624] > Auto Layout Horizontal [33:628] > Auto Layout Horizontal [33:632] > Ellipse [33:635]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:646] > Auto Layout Vertical [33:655] > Auto Layout Horizontal [33:659] > Auto Layout Horizontal [33:663] > Ellipse [33:666]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Course_Card_1 [34:1055] > Auto Layout Vertical [34:1064] > Auto Layout Horizontal [34:1068] > Auto Layout Horizontal [34:1072] > Ellipse [34:1075]",
+        "Home [1:1067] > Testimonials_Frame [34:1175] > Content [34:1176] > Testimonial_Card [34:1182] > Testimonial_Card_1 [34:1183] > Ellipse [34:1184]"
+      ],
+      "bytes": 87266,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "d0cd3adb501c64c1b4cf766de6abb9fe8925fb5f",
+      "localPath": "src/assets/figma/course-discovery-asset-04.png",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "13:269",
+        "33:539",
+        "33:572",
+        "33:605",
+        "33:636",
+        "33:667",
+        "34:1076"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [13:249] > Auto Layout Vertical [13:258] > Auto Layout Horizontal [13:262] > Auto Layout Horizontal [13:265] > Ellipse [13:269]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:518] > Auto Layout Vertical [33:527] > Auto Layout Horizontal [33:531] > Auto Layout Horizontal [33:535] > Ellipse [33:539]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:551] > Auto Layout Vertical [33:560] > Auto Layout Horizontal [33:564] > Auto Layout Horizontal [33:568] > Ellipse [33:572]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:584] > Auto Layout Vertical [33:593] > Auto Layout Horizontal [33:597] > Auto Layout Horizontal [33:601] > Ellipse [33:605]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:615] > Auto Layout Vertical [33:624] > Auto Layout Horizontal [33:628] > Auto Layout Horizontal [33:632] > Ellipse [33:636]",
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:646] > Auto Layout Vertical [33:655] > Auto Layout Horizontal [33:659] > Auto Layout Horizontal [33:663] > Ellipse [33:667]",
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 13 [34:1157] > Frame 11 [34:1155] > Course_Card_1 [34:1055] > Auto Layout Vertical [34:1064] > Auto Layout Horizontal [34:1068] > Auto Layout Horizontal [34:1072] > Ellipse [34:1076]"
+      ],
+      "bytes": 75304,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "c88264191d691ba3300ad4f82a942429bb912fa5",
+      "localPath": "src/assets/figma/course-discovery-asset-05.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "33:519"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:518] > Frame [33:519]"
+      ],
+      "bytes": 55549,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "4f3bdea5688b1a654db7a29b0bc5dd3563059d11",
+      "localPath": "src/assets/figma/course-discovery-asset-06.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "33:552"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:551] > Frame [33:552]"
+      ],
+      "bytes": 73707,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "72e18d90fb9ddac1944e3483a501f3cdae505f57",
+      "localPath": "src/assets/figma/course-discovery-asset-07.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "33:585"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:584] > Frame [33:585]"
+      ],
+      "bytes": 75644,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "a89789455304dbf5cadc8e011bc26c97145aa56c",
+      "localPath": "src/assets/figma/course-discovery-asset-08.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "33:616"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:615] > Frame [33:616]"
+      ],
+      "bytes": 32624,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "69362b026219ac3eb8b4e77e8bbe4e18c4464b44",
+      "localPath": "src/assets/figma/course-discovery-asset-09.jpg",
+      "section": "course-discovery",
+      "rootId": "33:683",
+      "rootName": "Frame 8",
+      "nodeIds": [
+        "33:647"
+      ],
+      "nodeNames": [
+        "Frame"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 8 [33:683] > Course_Card_1 [33:646] > Frame [33:647]"
+      ],
+      "bytes": 58388,
+      "contentType": "image/jpeg"
+    },
+    {
+      "imageRef": "0d6596fb1df66aaf843ee85722f439fada233946",
+      "localPath": "src/assets/figma/growth-asset-01.png",
+      "section": "growth",
+      "rootId": "34:1159",
+      "rootName": "Frame 15",
+      "nodeIds": [
+        "34:1011"
+      ],
+      "nodeNames": [
+        "Image"
+      ],
+      "paths": [
+        "Home [1:1067] > Frame 15 [34:1159] > Frame 16 [34:1160] > Frame 14 [34:1158] > Frame 12 [34:1156] > Image [34:1011]"
+      ],
+      "bytes": 209574,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "5b3686bc5eadc510e3e04da588f9299d8bd3194c",
+      "localPath": "src/assets/figma/creator-cta-asset-01.png",
+      "section": "creator-cta",
+      "rootId": "34:1161",
+      "rootName": "CTA_Frame",
+      "nodeIds": [
+        "46:56",
+        "46:58"
+      ],
+      "nodeNames": [
+        "Cone_01 2",
+        "Cone_01 1"
+      ],
+      "paths": [
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:55] > Cone_01 2 [46:56]",
+        "Home [1:1067] > CTA_Frame [34:1161] > Group 6 [46:78] > Cone [46:55] > Mask Group [46:57] > Cone_01 1 [46:58]"
+      ],
+      "bytes": 1386942,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "63c4be83222c85e6c852819bc5d4b24a87a87fb6",
+      "localPath": "src/assets/figma/testimonials-asset-01.png",
+      "section": "testimonials",
+      "rootId": "34:1175",
+      "rootName": "Testimonials_Frame",
+      "nodeIds": [
+        "34:1190"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Testimonials_Frame [34:1175] > Content [34:1176] > Testimonial_Card [34:1182] > Testimonial_Card_2 [34:1189] > Ellipse [34:1190]"
+      ],
+      "bytes": 81884,
+      "contentType": "image/png"
+    },
+    {
+      "imageRef": "728c3b1d33fe647a46f9bf668322f8c1d94ed937",
+      "localPath": "src/assets/figma/testimonials-asset-02.png",
+      "section": "testimonials",
+      "rootId": "34:1175",
+      "rootName": "Testimonials_Frame",
+      "nodeIds": [
+        "34:1196"
+      ],
+      "nodeNames": [
+        "Ellipse"
+      ],
+      "paths": [
+        "Home [1:1067] > Testimonials_Frame [34:1175] > Content [34:1176] > Testimonial_Card [34:1182] > Testimonial_Card_3 [34:1195] > Ellipse [34:1196]"
+      ],
+      "bytes": 46862,
+      "contentType": "image/png"
+    }
+  ],
+  "failures": [],
+  "vectors": [
+    {
+      "nodeId": "1:1787",
+      "role": "bytespace-logo",
+      "localPath": "src/assets/figma/vectors/bytespace-logo.svg"
+    },
+    {
+      "nodeId": "1:1708",
+      "role": "partner-logos",
+      "localPath": "src/assets/figma/vectors/partner-logos.svg"
+    }
+  ]
+}
